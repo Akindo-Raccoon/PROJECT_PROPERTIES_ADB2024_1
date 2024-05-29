@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-teal-400;
+}
+
+.formUser {
+  display: block,
+  colo ,
+  text-sm,
+  font-bold,
+  mb-2
+}
+
+
+
+.nabla-first {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: larger;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
